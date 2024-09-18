@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Mussie Abraham</h1>
+        <p>Projects | My Online Resume</p>
+    </header>
+    <div class="content-container">
+    <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-button">Home</a>
+                </li>
+                <li>
+                    <a href="education.html" class="nav-button">Education</a>
+                </li>
+                <li>
+                    <a href="employment.html" class="nav-button">Employment</a>
+                </li>
+                <li>
+                    <a href="achievements.html" class="nav-button">Achievements</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="nav-button">Projects</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-button">Contact Me</a>
+                </li>
+            </ul>
+    </nav>
+    <main>
+        <h2>Elegant Equation Solver</h2>
+        <div class="calculator-wrapper">
+        <div class="input-boxes">
+        <label for="num1"></label>
+        <input type="text" id="num1">
+        <label for="num2"></label>
+        <input type="text" id="num2">
+        </div>
+        <div class="buttons">
+        <button onclick="adding()">+</button>
+        <button onclick="subtracting()">-</button>
+        <button onclick="multiplying()">*</button>
+        <button onclick="dividing()">/</button>
+        <button onclick="powerto()">^</button>
+        <button onclick="resetting()">Clear</button>
+        </div>
+        <p id="result"></p>
+        </div>
+
+        <script src="calculator.js"></script>
+    </main>
+    </div>
+
+    <footer>
+        <h3>
+            All Rights Reserved by Mussie Abraham <a href="https://www.w3schools.com" target="_blank" style="color: lightgray">Credits</a> &copy;
+        </h3>
+    </footer>
+</body>
+</html>
